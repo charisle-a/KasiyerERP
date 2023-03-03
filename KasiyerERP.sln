@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{CFBC0301-4753-4AD7-BD3C-7F37C1E04DA4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KasiyerERP.App", "KasiyerERP\KasiyerERP.App.csproj", "{D530F3A0-1DC1-41D8-A6D2-A93D2587F325}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Model", "Model\Model.csproj", "{5D487B09-54A0-416C-A190-F4D8CB6593E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFBC0301-4753-4AD7-BD3C-7F37C1E04DA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFBC0301-4753-4AD7-BD3C-7F37C1E04DA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFBC0301-4753-4AD7-BD3C-7F37C1E04DA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFBC0301-4753-4AD7-BD3C-7F37C1E04DA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D530F3A0-1DC1-41D8-A6D2-A93D2587F325}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D530F3A0-1DC1-41D8-A6D2-A93D2587F325}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D530F3A0-1DC1-41D8-A6D2-A93D2587F325}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D530F3A0-1DC1-41D8-A6D2-A93D2587F325}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D487B09-54A0-416C-A190-F4D8CB6593E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D487B09-54A0-416C-A190-F4D8CB6593E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D487B09-54A0-416C-A190-F4D8CB6593E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D487B09-54A0-416C-A190-F4D8CB6593E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71C167D0-D60D-4D7B-9B4C-397116F65229}
+	EndGlobalSection
+EndGlobal

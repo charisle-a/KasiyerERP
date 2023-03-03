@@ -1,0 +1,17 @@
+D:\x\projeler\SiparişTakipApp\SiparisTakipApp\SiparisTakip.Model\bin\Debug\SiparisTakip.Model.dll
+D:\x\projeler\SiparişTakipApp\SiparisTakipApp\SiparisTakip.Model\bin\Debug\SiparisTakip.Model.pdb
+D:\x\projeler\SiparişTakipApp\SiparisTakipApp\SiparisTakip.Model\obj\Debug\Model.csproj.AssemblyReference.cache
+D:\x\projeler\SiparişTakipApp\SiparisTakipApp\SiparisTakip.Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\x\projeler\SiparişTakipApp\SiparisTakipApp\SiparisTakip.Model\obj\Debug\SiparisTakip.Model.dll
+D:\x\projeler\SiparişTakipApp\SiparisTakipApp\SiparisTakip.Model\obj\Debug\SiparisTakip.Model.pdb
+D:\x\projeler\KasiyerERP\SiparisTakipApp\SiparisTakip.Model\bin\Debug\SiparisTakip.Model.dll
+D:\x\projeler\KasiyerERP\SiparisTakipApp\SiparisTakip.Model\bin\Debug\SiparisTakip.Model.pdb
+D:\x\projeler\KasiyerERP\SiparisTakipApp\SiparisTakip.Model\obj\Debug\Model.csproj.AssemblyReference.cache
+D:\x\projeler\KasiyerERP\SiparisTakipApp\SiparisTakip.Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\x\projeler\KasiyerERP\SiparisTakipApp\SiparisTakip.Model\obj\Debug\SiparisTakip.Model.dll
+D:\x\projeler\KasiyerERP\SiparisTakipApp\SiparisTakip.Model\obj\Debug\SiparisTakip.Model.pdb
+D:\x\projeler\KasiyerERP\SiparisTakipApp\Model\bin\Debug\SiparisTakip.Model.dll
+D:\x\projeler\KasiyerERP\SiparisTakipApp\Model\bin\Debug\SiparisTakip.Model.pdb
+D:\x\projeler\KasiyerERP\SiparisTakipApp\Model\obj\Debug\Model.csproj.CoreCompileInputs.cache
+D:\x\projeler\KasiyerERP\SiparisTakipApp\Model\obj\Debug\SiparisTakip.Model.dll
+D:\x\projeler\KasiyerERP\SiparisTakipApp\Model\obj\Debug\SiparisTakip.Model.pdb
