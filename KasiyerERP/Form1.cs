@@ -1,4 +1,5 @@
 ﻿using DataAccess;
+using DevExpress.XtraEditors;
 using KasiyerERP.Formlar.Urunler;
 using SiparisTakipApp.Formlar;
 using SiparisTakipApp.Formlar.Ayarlar;
@@ -59,16 +60,22 @@ namespace SiparisTakipApp
 
 		private void barButtonItem18_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
 		{
-			UrunEkleGuncelle urunEkleGuncelle = new UrunEkleGuncelle();
-			urunEkleGuncelle.Text = "Urun Güncelle";
-			urunEkleGuncelle.GuncelleButton.Visible = true;
-			urunEkleGuncelle.KaydetButton.Visible = false;
-			urunEkleGuncelle.urunUpdate = urunler.urun;
-			urunEkleGuncelle.TextUpdate();
-			if (urunEkleGuncelle.ShowDialog() == DialogResult.Yes)
+			if (urunler.urun.UrunTur!=null )
 			{
-				urunler.listele();
+				UrunEkleGuncelle urunEkleGuncelle = new UrunEkleGuncelle();
+				urunEkleGuncelle.Text = "Urun Güncelle";
+				urunEkleGuncelle.GuncelleButton.Visible = true;
+				urunEkleGuncelle.KaydetButton.Visible = false;
+				urunEkleGuncelle.urunUpdate = urunler.urun;
+				urunEkleGuncelle.TextUpdate();
+				if (urunEkleGuncelle.ShowDialog() == DialogResult.Yes)
+				{
+					urunler.listele();
+				}
 			}
+			else
+				XtraMessageBox.Show("Düzenlenicek bir ürün seçilmedi");
+			
 		}
 
 		private void barButtonItem19_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
