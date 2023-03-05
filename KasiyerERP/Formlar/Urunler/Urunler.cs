@@ -1,4 +1,5 @@
 ﻿using DataAccess;
+using DevExpress.XtraEditors;
 using Model;
 using System;
 using System.Collections.Generic;
@@ -25,14 +26,27 @@ namespace KasiyerERP.Formlar.Urunler
 			{
 				gridControl1.DataSource = unitOf.UrunWork.GetAllWithTur();
 			}
-
+			gridControl1.RefreshDataSource();
 		}
 		private void Urunler_Load(object sender, EventArgs e)
 		{
 			listele();
 			gridControl1.Size = this.Size;
 		}
-		
+		public void urunSil()
+		{
+			
+			if (gridView1.GetRowCellValue(gridView1.FocusedRowHandle, "Id") != null)
+			{
+				if(XtraMessageBox.Show(urun.Ad+" Kaydının silinmesini istiyor musunuz?","Ürün sil",MessageBoxButtons.YesNo,MessageBoxIcon.Question)==DialogResult.Yes)
+				using (UnitOfWork unitOf=new UnitOfWork())
+				{
+					unitOf.UrunWork.Remove(urun);
+						unitOf.Save();
+				}
+			}
+			listele();
+		}
 		private void gridView1_FocusedRowChanged(object sender, DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs e)
 		{
 			

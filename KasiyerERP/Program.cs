@@ -18,7 +18,7 @@ namespace SiparisTakipApp
 		{
 
 
-			UserLookAndFeel.Default.SetSkinStyle(SkinStyle.DevExpressDark);
+			UserLookAndFeel.Default.SetSkinStyle(SkinStyle.Bezier);
 
 
 

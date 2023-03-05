@@ -107,6 +107,30 @@
     <Compile Include="Formlar\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formlar\SatisDetaylarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\SatisDetaylarForm.Designer.cs">
+      <DependentUpon>SatisDetaylarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\SatisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\SatisForm.Designer.cs">
+      <DependentUpon>SatisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\SatislarForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\SatislarForm.Designer.cs">
+      <DependentUpon>SatislarForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\SepeteEkleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\SepeteEkleForm.Designer.cs">
+      <DependentUpon>SepeteEkleForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlar\Urunler\UrunEkleGuncelle.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +162,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\SatisDetaylarForm.resx">
+      <DependentUpon>SatisDetaylarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\SatisForm.resx">
+      <DependentUpon>SatisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\SatislarForm.resx">
+      <DependentUpon>SatislarForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\SepeteEkleForm.resx">
+      <DependentUpon>SepeteEkleForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\Urunler\UrunEkleGuncelle.resx">
       <DependentUpon>UrunEkleGuncelle.cs</DependentUpon>

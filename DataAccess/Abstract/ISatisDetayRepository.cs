@@ -10,5 +10,7 @@ namespace DataAccess.Abstract
 	public interface ISatisDetayRepository:IRepository<Satisdetay>
 	{
 		IEnumerable<Satisdetay> GetAllWithUrun();
+		void SatisDetayAdd(Satisdetay satisdetay);
+		
 	}
 }

@@ -103,10 +103,11 @@ namespace SiparisTakipApp
             this.ribbonPage3,
             this.ribbonPage2});
 			this.ribbonControl1.Size = new System.Drawing.Size(800, 150);
+			this.ribbonControl1.SelectedPageChanged += new System.EventHandler(this.ribbonControl1_SelectedPageChanged);
 			// 
 			// barButtonItem1
 			// 
-			this.barButtonItem1.Caption = "Sipariş Al";
+			this.barButtonItem1.Caption = "Sepete Ekle";
 			this.barButtonItem1.Id = 1;
 			this.barButtonItem1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.Image")));
 			this.barButtonItem1.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem1.ImageOptions.LargeImage")));
@@ -189,6 +190,7 @@ namespace SiparisTakipApp
 			this.barButtonItem11.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("barButtonItem11.ImageOptions.Image")));
 			this.barButtonItem11.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem11.ImageOptions.LargeImage")));
 			this.barButtonItem11.Name = "barButtonItem11";
+			this.barButtonItem11.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem11_ItemClick);
 			// 
 			// barButtonItem12
 			// 
@@ -242,6 +244,7 @@ namespace SiparisTakipApp
 			this.barButtonItem17.Id = 20;
 			this.barButtonItem17.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem17.ImageOptions.SvgImage")));
 			this.barButtonItem17.Name = "barButtonItem17";
+			this.barButtonItem17.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem17_ItemClick);
 			// 
 			// barButtonItem18
 			// 
@@ -327,11 +330,11 @@ namespace SiparisTakipApp
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.AutoSize = true;
-			this.ClientSize = new System.Drawing.Size(800, 450);
+			this.ClientSize = new System.Drawing.Size(800, 392);
 			this.Controls.Add(this.ribbonControl1);
 			this.IsMdiContainer = true;
 			this.Name = "Form1";
-			this.Text = "AnaSayfa";
+			this.Text = "KasiyerApp";
 			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
 			this.Load += new System.EventHandler(this.Form1_Load);
 			((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();

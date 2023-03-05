@@ -9,6 +9,7 @@ namespace DataAccess.Abstract
 {
 	public interface IRepository<T>:IDisposable where T:class 
 	{
+		void AddRange(IEnumerable<T> item);
 		IEnumerable<T> GetAll();
 		T GetItem(object key);
 		void add(T item);

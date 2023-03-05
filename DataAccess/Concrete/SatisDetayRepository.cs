@@ -19,5 +19,13 @@ namespace DataAccess.Concrete
 		{
 			return dbContext.Set<Satisdetay>().Include(s => s.Urun).ToList();	
 		}
+
+		public void SatisDetayAdd(Satisdetay satisdetay)
+		{
+			//bir hata aldığımız için satisdetay için ayrı bir add yazıldı
+			var urun = dbContext.Set<Urun>().Find(satisdetay.UrunId);
+			satisdetay.Urun = urun;
+			dbContext.Set<Satisdetay>().Add(satisdetay);
+		}
 	}
 }

@@ -1,5 +1,6 @@
 ﻿using DataAccess;
 using DevExpress.XtraEditors;
+using KasiyerERP.Formlar;
 using KasiyerERP.Formlar.Urunler;
 using SiparisTakipApp.Formlar;
 using SiparisTakipApp.Formlar.Ayarlar;
@@ -17,6 +18,7 @@ namespace SiparisTakipApp
 {
 	public partial class Form1 : Form
 	{
+		Anasayfa anasayfa = new Anasayfa();
 		Urunler urunler = new Urunler();
 		public Form1()
 		{
@@ -25,12 +27,15 @@ namespace SiparisTakipApp
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
-			
+		    anasayfa = new Anasayfa();
+			anasayfa.MdiParent = this;
+			anasayfa.Show();
 		}
 
 		private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
 		{
-
+			
+			anasayfa.SepeteEkle();
 		}
 
 		
@@ -95,6 +100,34 @@ namespace SiparisTakipApp
 			{
 				urunler.listele();
 			}
+		}
+
+		private void ribbonControl1_SelectedPageChanged(object sender, EventArgs e)
+		{
+			if (ribbonControl1.SelectedPage == ribbonPage1)
+			{
+				anasayfa = new Anasayfa();
+				anasayfa.MdiParent = this;
+				anasayfa.Show();
+			}
+			else
+			{
+anasayfa.Close();
+				anasayfa.Dispose();
+			}
+				
+		}
+
+		private void barButtonItem11_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+		{
+			SatislarForm satislar = new SatislarForm();
+			satislar.MdiParent = this;
+			satislar.Show();
+		}
+
+		private void barButtonItem17_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+		{
+			urunler.urunSil();
 		}
 	}
 }

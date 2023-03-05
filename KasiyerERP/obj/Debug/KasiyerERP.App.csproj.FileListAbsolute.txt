@@ -234,3 +234,7 @@ D:\x\projeler\KasiyerERP\KasiyerERP\KasiyerERP\obj\Debug\KasiyerERP.App.csproj.C
 D:\x\projeler\KasiyerERP\KasiyerERP\KasiyerERP\obj\Debug\KasiyerERP.App.csproj.CopyComplete
 D:\x\projeler\KasiyerERP\KasiyerERP\KasiyerERP\obj\Debug\KasiyerERP.exe
 D:\x\projeler\KasiyerERP\KasiyerERP\KasiyerERP\obj\Debug\KasiyerERP.pdb
+D:\x\projeler\KasiyerERP\KasiyerERP\KasiyerERP\obj\Debug\KasiyerERP.Formlar.SepeteEkleForm.resources
+D:\x\projeler\KasiyerERP\KasiyerERP\KasiyerERP\obj\Debug\KasiyerERP.Formlar.SatisDetaylarForm.resources
+D:\x\projeler\KasiyerERP\KasiyerERP\KasiyerERP\obj\Debug\KasiyerERP.Formlar.SatisForm.resources
+D:\x\projeler\KasiyerERP\KasiyerERP\KasiyerERP\obj\Debug\KasiyerERP.Formlar.SatislarForm.resources

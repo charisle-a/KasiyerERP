@@ -21,6 +21,11 @@ namespace DataAccess.Concrete
 			dbContext.Set<T>().Add(item);
 		}
 
+		public void AddRange(IEnumerable<T> item)
+		{
+			dbContext.Set<T>().AddRange(item);
+		}
+
 		public bool Any(Expression<Func<T,bool>> expression)
 		{
 			return dbContext.Set<T>().Any(expression);

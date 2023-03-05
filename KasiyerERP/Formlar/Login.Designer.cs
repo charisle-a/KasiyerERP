@@ -46,17 +46,21 @@ namespace SiparisTakipApp.Formlar
 			// 
 			// labelControl1
 			// 
-			this.labelControl1.Location = new System.Drawing.Point(140, 155);
+			this.labelControl1.Appearance.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.labelControl1.Appearance.Options.UseFont = true;
+			this.labelControl1.Location = new System.Drawing.Point(155, 155);
 			this.labelControl1.Name = "labelControl1";
-			this.labelControl1.Size = new System.Drawing.Size(33, 13);
+			this.labelControl1.Size = new System.Drawing.Size(45, 17);
 			this.labelControl1.TabIndex = 0;
 			this.labelControl1.Text = "Eposta";
 			// 
 			// labelControl2
 			// 
-			this.labelControl2.Location = new System.Drawing.Point(140, 211);
+			this.labelControl2.Appearance.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+			this.labelControl2.Appearance.Options.UseFont = true;
+			this.labelControl2.Location = new System.Drawing.Point(155, 208);
 			this.labelControl2.Name = "labelControl2";
-			this.labelControl2.Size = new System.Drawing.Size(46, 13);
+			this.labelControl2.Size = new System.Drawing.Size(62, 17);
 			this.labelControl2.TabIndex = 1;
 			this.labelControl2.Text = "Password\r\n";
 			// 
@@ -89,6 +93,8 @@ namespace SiparisTakipApp.Formlar
 			this.pictureEdit1.EditValue = ((object)(resources.GetObject("pictureEdit1.EditValue")));
 			this.pictureEdit1.Location = new System.Drawing.Point(236, 12);
 			this.pictureEdit1.Name = "pictureEdit1";
+			this.pictureEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Transparent;
+			this.pictureEdit1.Properties.Appearance.Options.UseBackColor = true;
 			this.pictureEdit1.Properties.ShowCameraMenuItem = DevExpress.XtraEditors.Controls.CameraMenuItemVisibility.Auto;
 			this.pictureEdit1.Properties.SizeMode = DevExpress.XtraEditors.Controls.PictureSizeMode.Stretch;
 			this.pictureEdit1.Size = new System.Drawing.Size(144, 134);
@@ -98,7 +104,7 @@ namespace SiparisTakipApp.Formlar
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.SystemColors.ControlDark;
+			this.BackColor = System.Drawing.SystemColors.Control;
 			this.ClientSize = new System.Drawing.Size(579, 335);
 			this.Controls.Add(this.simpleButton1);
 			this.Controls.Add(this.textEdit2);
@@ -108,6 +114,7 @@ namespace SiparisTakipApp.Formlar
 			this.Controls.Add(this.pictureEdit1);
 			this.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.Name = "Login";
+			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Login";
 			this.Load += new System.EventHandler(this.Login_Load);
 			((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();

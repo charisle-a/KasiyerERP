@@ -15,7 +15,7 @@ namespace DataAccess
 		private UrunRepository urunRepo;
 		private Repository<UrunTur> turRepo;
 		private KullaniciRepository kullaniciRepo;
-		private Repository<Satis> satisRepo;
+		private SatisRepository satisRepo;
 		private SatisDetayRepository detayRepo;
 	
 
@@ -46,12 +46,12 @@ namespace DataAccess
 				return kullaniciRepo;
 			}
 		}
-		public Repository<Satis> satisWork
+		public SatisRepository satisWork
 		{
 			get
 			{
 				if (satisRepo == null)
-					satisRepo = new Repository<Satis>(context);
+					satisRepo = new SatisRepository(context);
 				return satisRepo;
 			}
 		}

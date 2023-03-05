@@ -54,10 +54,12 @@
     <Compile Include="Abstract\IKullaniciRepository.cs" />
     <Compile Include="Abstract\IRepository.cs" />
     <Compile Include="Abstract\ISatisDetayRepository.cs" />
+    <Compile Include="Abstract\ISatisRepository.cs" />
     <Compile Include="Abstract\IUrunRepository.cs" />
     <Compile Include="Concrete\KullaniciRepository.cs" />
     <Compile Include="Concrete\Repository.cs" />
     <Compile Include="Concrete\SatisDetayRepository.cs" />
+    <Compile Include="Concrete\SatisRepository.cs" />
     <Compile Include="Concrete\UrunRepository.cs" />
     <Compile Include="MyDbContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
